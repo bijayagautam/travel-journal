@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Shrikhand&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;;
+}
+
+a:hover{
+    color: rgb(107, 245, 153);
+}
+
+h1{
+    margin: 0.5em 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+}
+
+.gallery{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.city{
+    font-family: 'Shrikhand', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+.toronto{
+
+}
+
+.city-name{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+}
+
+.city-photo{
+
+}
+
+.osaka{
+    height: 15em;
+}
